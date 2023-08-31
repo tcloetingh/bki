@@ -1,0 +1,210 @@
+2023-08-17 16:13:23,954 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@3e6f3f28 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@7e19ebf0 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.pgsb.PgsbApplication.main(PgsbApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@3e6f3f28 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@7e19ebf0 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-17 16:16:28,269 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@19e7a160 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.pgsb.PgsbApplication.main(PgsbApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.PatternLayout("null") - Empty or null pattern.
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@19e7a160 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-17 16:17:35,005 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@6aa61224 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.pgsb.PgsbApplication.main(PgsbApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@6aa61224 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-17 16:19:20 - Starting PgsbApplication using Java 19.0.1 with PID 62567 (/Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb)
+2023-08-17 16:19:20 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-17 16:19:20 - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 16:19:21 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 16:19:21 - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-08-17 16:19:21 - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 16:19:21 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:19:21 - Starting service [Tomcat]
+2023-08-17 16:19:21 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 16:19:21 - Initializing Spring embedded WebApplicationContext
+2023-08-17 16:19:21 - Root WebApplicationContext: initialization completed in 1056 ms
+2023-08-17 16:19:22 - HikariPool-1 - Starting...
+2023-08-17 16:19:22 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@412ebe64
+2023-08-17 16:19:22 - HikariPool-1 - Start completed.
+2023-08-17 16:19:22 - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:19:22 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 16:19:22 - Started PgsbApplication in 2.866 seconds (process running for 3.493)
+2023-08-17 16:24:20 - HikariPool-1 - Shutdown initiated...
+2023-08-17 16:24:20 - HikariPool-1 - Shutdown completed.
+2023-08-17 16:24:25 - Starting PgsbApplication using Java 19.0.1 with PID 62957 (/Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb)
+2023-08-17 16:24:25 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-17 16:24:25 - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 16:24:25 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 16:24:25 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 16:24:26 - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 16:24:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:24:26 - Starting service [Tomcat]
+2023-08-17 16:24:26 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 16:24:26 - Initializing Spring embedded WebApplicationContext
+2023-08-17 16:24:26 - Root WebApplicationContext: initialization completed in 912 ms
+2023-08-17 16:24:26 - HikariPool-1 - Starting...
+2023-08-17 16:24:26 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@599a9cb2
+2023-08-17 16:24:26 - HikariPool-1 - Start completed.
+2023-08-17 16:24:26 - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:24:26 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 16:24:26 - Started PgsbApplication in 2.336 seconds (process running for 2.736)
+2023-08-17 16:24:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 16:24:44 - Initializing Servlet 'dispatcherServlet'
+2023-08-17 16:24:44 - Completed initialization in 3 ms
+2023-08-17 16:24:44 - Returning total cocktail count 699
+2023-08-17 16:29:35 - HikariPool-1 - Shutdown initiated...
+2023-08-17 16:29:35 - HikariPool-1 - Shutdown completed.
+2023-08-17 16:29:38 - Starting PgsbApplication using Java 19.0.1 with PID 63290 (/Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb)
+2023-08-17 16:29:38 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-17 16:29:38 - No active profile set, falling back to 1 default profile: "default"
+2023-08-17 16:29:39 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-17 16:29:39 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-08-17 16:29:39 - Tomcat initialized with port(s): 8080 (http)
+2023-08-17 16:29:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:29:39 - Starting service [Tomcat]
+2023-08-17 16:29:39 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17 16:29:39 - Initializing Spring embedded WebApplicationContext
+2023-08-17 16:29:39 - Root WebApplicationContext: initialization completed in 846 ms
+2023-08-17 16:29:39 - HikariPool-1 - Starting...
+2023-08-17 16:29:40 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@412ebe64
+2023-08-17 16:29:40 - HikariPool-1 - Start completed.
+2023-08-17 16:29:40 - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-17 16:29:40 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-17 16:29:40 - Started PgsbApplication in 2.166 seconds (process running for 2.475)
+2023-08-17 16:39:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17 16:39:09 - Initializing Servlet 'dispatcherServlet'
+2023-08-17 16:39:09 - Completed initialization in 30 ms
+2023-08-17 16:39:09 - new cocktail entered: testabcdfeN/A
+2023-08-17 16:49:12 - Returning total cocktail count 700
+2023-08-17 17:12:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m22s123ms).
+2023-08-17 17:13:31 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57s8ms).
+2023-08-17 17:22:47 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m16s210ms).
+2023-08-17 17:24:07 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s805ms).
+2023-08-17 17:27:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m55s877ms).
+2023-08-17 17:38:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m17s513ms).
+2023-08-17 17:52:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m43s385ms).
+2023-08-17 17:56:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m29s286ms).
+2023-08-17 17:59:28 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m54s774ms).
+2023-08-17 18:33:55 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m27s259ms).
+2023-08-17 18:55:43 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m47s279ms).
+2023-08-17 19:01:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m21s627ms).
+2023-08-17 19:05:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m1s569ms).
+2023-08-17 19:14:17 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m11s768ms).
+2023-08-17 19:15:35 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s652ms).
+2023-08-17 19:26:24 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m48s699ms).
+2023-08-17 19:27:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s777ms).
+2023-08-17 19:29:30 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s238ms).
+2023-08-17 19:37:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m43s410ms).
+2023-08-17 19:43:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m13s660ms).
+2023-08-17 20:43:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s34ms).
+2023-08-17 20:47:50 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s806ms).
+2023-08-17 20:50:39 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s557ms).
+2023-08-17 20:53:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m9s).
+2023-08-17 20:56:44 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s483ms).
+2023-08-17 20:59:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s966ms).
+2023-08-17 21:07:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m11s335ms).
+2023-08-17 21:11:24 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s309ms).
+2023-08-17 21:12:25 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m690ms).
+2023-08-17 21:14:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s687ms).
+2023-08-17 21:15:25 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s486ms).
+2023-08-17 21:25:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s514ms).
+2023-08-17 21:26:26 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s620ms).
+2023-08-17 21:29:02 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s571ms).
+2023-08-17 21:38:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m34s597ms).
+2023-08-17 21:42:20 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m44s63ms).
+2023-08-17 21:56:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m43s645ms).
+2023-08-17 21:59:39 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m35s343ms).
+2023-08-17 22:10:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m53s584ms).
+2023-08-17 22:18:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m25s234ms).
+2023-08-17 22:30:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m23s17ms).
+2023-08-17 22:38:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m6s358ms).
+2023-08-17 22:49:52 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m24s189ms).
+2023-08-17 23:01:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m21s597ms).
+2023-08-17 23:13:22 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m8s703ms).
+2023-08-17 23:37:32 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m10s251ms).

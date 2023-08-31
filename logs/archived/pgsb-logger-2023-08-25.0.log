@@ -1,0 +1,105 @@
+2023-08-25 00:23:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m5s685ms).
+2023-08-25 01:15:32 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m29s712ms).
+2023-08-25 02:34:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m54s851ms).
+2023-08-25 03:01:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m21s80ms).
+2023-08-25 04:03:55 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m6s989ms).
+2023-08-25 04:27:45 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m49s851ms).
+2023-08-25 05:32:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m30s632ms).
+2023-08-25 06:10:19 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m3s347ms).
+2023-08-25 06:41:09 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m50s244ms).
+2023-08-25 06:57:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m11s943ms).
+2023-08-25 07:30:26 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m4s566ms).
+2023-08-25 07:46:59 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s94ms).
+2023-08-25 08:53:43 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m44s100ms).
+2023-08-25 09:43:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m17s139ms).
+2023-08-25 09:52:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s432ms).
+2023-08-25 09:54:35 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m53s157ms).
+2023-08-25 10:00:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m58s24ms).
+2023-08-25 10:03:52 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m18s618ms).
+2023-08-25 10:04:49 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s953ms).
+2023-08-25 10:17:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m27s928ms).
+2023-08-25 10:53:05 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m48s774ms).
+2023-08-25 10:59:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m30s323ms).
+2023-08-25 11:02:17 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s925ms).
+2023-08-25 11:04:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s736ms).
+2023-08-25 11:08:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m17s814ms).
+2023-08-25 11:09:25 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s830ms).
+2023-08-25 11:10:38 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s758ms).
+2023-08-25 11:12:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s930ms).
+2023-08-25 11:16:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m484ms).
+2023-08-25 11:19:43 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s472ms).
+2023-08-25 11:20:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s142ms).
+2023-08-25 11:30:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m24s735ms).
+2023-08-25 11:48:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m9s644ms).
+2023-08-25 11:49:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s659ms).
+2023-08-25 11:51:28 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s437ms).
+2023-08-25 12:20:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m20s37ms).
+2023-08-25 12:50:02 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m13s393ms).
+2023-08-25 13:10:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m1s518ms).
+2023-08-25 13:31:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m8s667ms).
+2023-08-25 14:37:28 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m16s217ms).
+2023-08-25 15:35:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m52s666ms).
+2023-08-25 16:38:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m3s797ms).
+2023-08-25 16:41:29 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s333ms).
+2023-08-25 16:50:04 - HikariPool-1 - Shutdown initiated...
+2023-08-25 16:50:04 - HikariPool-1 - Shutdown completed.
+2023-08-25 16:50:09 - Starting PgsbApplication using Java 19.0.1 with PID 81168 (/Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/tcloetinghdotcom/pgsb)
+2023-08-25 16:50:09 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-25 16:50:09 - No active profile set, falling back to 1 default profile: "default"
+2023-08-25 16:50:10 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-08-25 16:50:10 - Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2023-08-25 16:50:10 - Tomcat initialized with port(s): 8080 (http)
+2023-08-25 16:50:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-25 16:50:10 - Starting service [Tomcat]
+2023-08-25 16:50:10 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-25 16:50:11 - Initializing Spring embedded WebApplicationContext
+2023-08-25 16:50:11 - Root WebApplicationContext: initialization completed in 1531 ms
+2023-08-25 16:50:11 - HikariPool-1 - Starting...
+2023-08-25 16:50:12 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c3158e0
+2023-08-25 16:50:12 - HikariPool-1 - Start completed.
+2023-08-25 16:50:12 - Starting ProtocolHandler ["http-nio-8080"]
+2023-08-25 16:50:12 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-25 16:50:12 - Started PgsbApplication in 3.722 seconds (process running for 4.401)
+2023-08-25 16:52:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25 16:52:02 - Initializing Servlet 'dispatcherServlet'
+2023-08-25 16:52:02 - Completed initialization in 2 ms
+2023-08-25 16:52:02 - new cocktail entered: Aperol & Elderflower Margarita1 1/2 ounces Corralejo Reposado tequila
+1 ounce Aperol
+1/2 ounce St Germaine liqueur
+1/4 ounce freshly squeezed lime juice
+shake and strain over coupe glassoptional lime wedgeCoupeTyler MexicoN/A
+2023-08-25 17:22:49 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m36s977ms).
+2023-08-25 17:25:38 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m49s410ms).
+2023-08-25 17:27:49 - Returning total cocktail count 693
+2023-08-25 17:28:46 - searchTerm: cognac
+2023-08-25 17:54:55 - Returning total cocktail count 693
+2023-08-25 17:56:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s835ms).
+2023-08-25 17:57:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s91ms).
+2023-08-25 17:59:24 - new cocktail entered: Elder Fashioned 2 oz Gin Plymouth
+1/2 oz St. Germain
+2 Dash Orange bitters
+Mix and serve over large ice cubeGrapefruit TwistRocks GlassThe Educated BarflyNYCN/A
+2023-08-25 18:09:34 - searchTerm: elder 
+2023-08-25 18:28:08 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m15s171ms).
+2023-08-25 18:34:01 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m53s668ms).
+2023-08-25 18:36:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s152ms).
+2023-08-25 18:39:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s90ms).
+2023-08-25 19:05:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m38s284ms).
+2023-08-25 19:08:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m51s591ms).
+2023-08-25 19:14:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m25s878ms).
+2023-08-25 19:24:33 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m21s754ms).
+2023-08-25 19:26:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s310ms).
+2023-08-25 19:32:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m50s667ms).
+2023-08-25 19:46:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m35s741ms).
+2023-08-25 20:05:58 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m16s149ms).
+2023-08-25 20:31:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m12s948ms).
+2023-08-25 20:54:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m2s423ms).
+2023-08-25 21:02:01 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m47s113ms).
+2023-08-25 21:04:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s138ms).
+2023-08-25 21:51:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m56s42ms).
+2023-08-25 21:59:38 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m32s670ms).
+2023-08-25 22:23:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m10s25ms).
+2023-08-25 23:08:05 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m16s244ms).
+2023-08-25 23:16:14 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m9s61ms).
+2023-08-25 23:32:57 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s446ms).
+2023-08-25 23:37:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s134ms).
