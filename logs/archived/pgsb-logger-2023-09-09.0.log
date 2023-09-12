@@ -1,0 +1,176 @@
+2023-09-09 00:14:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m33s523ms).
+2023-09-09 00:15:29 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s65ms).
+2023-09-09 00:58:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m5s214ms).
+2023-09-09 01:49:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m38s550ms).
+2023-09-09 02:54:26 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m13s72ms).
+2023-09-09 03:43:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m27s337ms).
+2023-09-09 04:48:16 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m23s50ms).
+2023-09-09 05:51:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m37s161ms).
+2023-09-09 06:53:15 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m21s367ms).
+2023-09-09 07:44:39 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m23s711ms).
+2023-09-09 08:11:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m33s619ms).
+2023-09-09 08:33:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m41s997ms).
+2023-09-09 08:49:24 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s163ms).
+2023-09-09 09:07:10 - searchTerm: mezcal
+2023-09-09 09:10:50 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m25s870ms).
+2023-09-09 09:12:01 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s728ms).
+2023-09-09 09:21:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s692ms).
+2023-09-09 09:23:05 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s205ms).
+2023-09-09 09:26:39 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m33s983ms).
+2023-09-09 09:57:45 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m5s466ms).
+2023-09-09 10:19:19 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m34s514ms).
+2023-09-09 10:21:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m53s693ms).
+2023-09-09 10:22:37 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s757ms).
+2023-09-09 10:26:12 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m35s612ms).
+2023-09-09 10:27:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s582ms).
+2023-09-09 10:32:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m28s768ms).
+2023-09-09 10:38:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s260ms).
+2023-09-09 10:51:54 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m27s399ms).
+2023-09-09 11:31:29 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m34s981ms).
+2023-09-09 11:45:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s840ms).
+2023-09-09 11:53:30 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m53s726ms).
+2023-09-09 12:05:13 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m43s713ms).
+2023-09-09 12:06:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s563ms).
+2023-09-09 12:11:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m31s633ms).
+2023-09-09 12:19:28 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m52s867ms).
+2023-09-09 12:24:01 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m32s148ms).
+2023-09-09 12:26:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s59ms).
+2023-09-09 12:27:51 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s344ms).
+2023-09-09 12:32:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m12s208ms).
+2023-09-09 12:54:53 - Returning total cocktail count 4114
+2023-09-09 12:58:24 - Returning total cocktail count 4114
+2023-09-09 13:00:49 - Returning total cocktail count 4114
+2023-09-09 13:01:36 - Returning total cocktail count 4114
+2023-09-09 13:02:25 - Returning total cocktail count 4114
+2023-09-09 13:06:01 - Returning total cocktail count 4114
+2023-09-09 13:07:59 - Returning total cocktail count 4114
+2023-09-09 13:08:22 - Returning total cocktail count 4114
+2023-09-09 13:08:36 - Returning total cocktail count 4114
+2023-09-09 13:09:15 - Returning total cocktail count 4114
+2023-09-09 13:09:26 - Returning total cocktail count 4114
+2023-09-09 13:09:50 - Returning total cocktail count 4114
+2023-09-09 13:10:09 - Returning total cocktail count 4114
+2023-09-09 13:10:19 - Returning total cocktail count 4114
+2023-09-09 13:11:42 - Returning total cocktail count 4114
+2023-09-09 13:13:18 - Returning total cocktail count 4114
+2023-09-09 13:13:23 - Returning total cocktail count 4114
+2023-09-09 13:13:29 - Returning total cocktail count 4114
+2023-09-09 13:15:36 - Returning total cocktail count 4114
+2023-09-09 13:16:15 - Returning total cocktail count 4114
+2023-09-09 13:17:16 - Returning total cocktail count 4114
+2023-09-09 13:18:32 - Returning total cocktail count 4114
+2023-09-09 13:19:03 - Returning total cocktail count 4114
+2023-09-09 13:21:16 - Returning total cocktail count 4114
+2023-09-09 13:21:24 - Returning total cocktail count 4114
+2023-09-09 13:21:37 - Returning total cocktail count 4114
+2023-09-09 13:21:48 - Returning total cocktail count 4114
+2023-09-09 13:22:31 - Returning total cocktail count 4114
+2023-09-09 13:22:58 - Returning total cocktail count 4114
+2023-09-09 13:23:15 - Returning total cocktail count 4114
+2023-09-09 13:25:10 - Returning total cocktail count 4114
+2023-09-09 13:25:40 - Returning total cocktail count 4114
+2023-09-09 13:26:09 - Returning total cocktail count 4114
+2023-09-09 13:26:18 - Returning total cocktail count 4114
+2023-09-09 13:26:30 - Returning total cocktail count 4114
+2023-09-09 13:26:35 - Returning total cocktail count 4114
+2023-09-09 13:26:39 - Returning total cocktail count 4114
+2023-09-09 13:26:59 - Returning total cocktail count 4114
+2023-09-09 13:27:36 - Returning total cocktail count 4114
+2023-09-09 13:27:55 - Returning total cocktail count 4114
+2023-09-09 13:28:13 - Returning total cocktail count 4114
+2023-09-09 13:29:10 - Returning total cocktail count 4114
+2023-09-09 13:29:52 - Returning total cocktail count 4114
+2023-09-09 13:30:18 - Returning total cocktail count 4114
+2023-09-09 13:30:29 - Returning total cocktail count 4114
+2023-09-09 13:30:43 - Returning total cocktail count 4114
+2023-09-09 13:30:52 - Returning total cocktail count 4114
+2023-09-09 13:32:15 - Returning total cocktail count 4114
+2023-09-09 13:32:49 - Returning total cocktail count 4114
+2023-09-09 13:33:40 - Returning total cocktail count 4114
+2023-09-09 13:34:03 - Returning total cocktail count 4114
+2023-09-09 13:34:50 - Returning total cocktail count 4114
+2023-09-09 13:36:43 - Returning total cocktail count 4114
+2023-09-09 13:37:07 - Returning total cocktail count 4114
+2023-09-09 13:37:49 - Returning total cocktail count 4114
+2023-09-09 13:38:09 - Returning total cocktail count 4114
+2023-09-09 13:38:47 - Returning total cocktail count 4114
+2023-09-09 13:40:03 - Returning total cocktail count 4114
+2023-09-09 13:40:57 - Returning total cocktail count 4114
+2023-09-09 13:41:41 - Returning total cocktail count 4114
+2023-09-09 13:41:54 - Returning total cocktail count 4114
+2023-09-09 13:42:41 - Returning total cocktail count 4114
+2023-09-09 13:42:52 - Returning total cocktail count 4114
+2023-09-09 13:43:15 - Returning total cocktail count 4114
+2023-09-09 13:44:30 - Returning total cocktail count 4114
+2023-09-09 13:45:09 - Returning total cocktail count 4114
+2023-09-09 13:45:31 - Returning total cocktail count 4114
+2023-09-09 13:46:54 - Returning total cocktail count 4114
+2023-09-09 13:47:03 - Returning total cocktail count 4114
+2023-09-09 13:48:21 - Returning total cocktail count 4114
+2023-09-09 13:49:35 - Returning total cocktail count 4114
+2023-09-09 13:50:09 - searchTerm: mezcal
+2023-09-09 13:50:23 - Returning total cocktail count 4114
+2023-09-09 13:50:30 - Returning total cocktail count 4114
+2023-09-09 13:50:35 - Returning total cocktail count 4114
+2023-09-09 13:50:55 - Returning total cocktail count 4114
+2023-09-09 13:51:00 - Returning total cocktail count 4114
+2023-09-09 13:51:11 - Returning total cocktail count 4114
+2023-09-09 13:51:14 - Returning total cocktail count 4114
+2023-09-09 13:52:25 - Returning total cocktail count 4114
+2023-09-09 13:52:30 - Returning total cocktail count 4114
+2023-09-09 13:52:41 - Returning total cocktail count 4114
+2023-09-09 13:52:44 - Returning total cocktail count 4114
+2023-09-09 13:52:51 - Returning total cocktail count 4114
+2023-09-09 13:52:56 - Returning total cocktail count 4114
+2023-09-09 13:53:22 - Returning total cocktail count 4114
+2023-09-09 13:54:01 - Returning total cocktail count 4114
+2023-09-09 13:54:29 - Returning total cocktail count 4114
+2023-09-09 13:55:51 - Returning total cocktail count 4114
+2023-09-09 13:56:24 - Returning total cocktail count 4114
+2023-09-09 13:56:48 - Returning total cocktail count 4114
+2023-09-09 13:57:05 - Returning total cocktail count 4114
+2023-09-09 13:58:46 - Returning total cocktail count 4114
+2023-09-09 13:59:00 - Returning total cocktail count 4114
+2023-09-09 13:59:27 - Returning total cocktail count 4114
+2023-09-09 13:59:54 - Returning total cocktail count 4114
+2023-09-09 14:00:56 - Returning total cocktail count 4114
+2023-09-09 14:02:24 - Returning total cocktail count 4114
+2023-09-09 14:02:30 - Returning total cocktail count 4114
+2023-09-09 14:02:40 - Returning total cocktail count 4114
+2023-09-09 14:03:07 - Returning total cocktail count 4114
+2023-09-09 14:04:35 - Returning total cocktail count 4114
+2023-09-09 14:04:54 - Returning total cocktail count 4114
+2023-09-09 14:05:14 - Returning total cocktail count 4114
+2023-09-09 14:05:52 - Returning total cocktail count 4114
+2023-09-09 14:06:17 - Returning total cocktail count 4114
+2023-09-09 14:06:25 - Returning total cocktail count 4114
+2023-09-09 14:08:27 - Returning total cocktail count 4114
+2023-09-09 14:08:44 - Returning total cocktail count 4114
+2023-09-09 14:08:59 - Returning total cocktail count 4114
+2023-09-09 14:09:13 - Returning total cocktail count 4114
+2023-09-09 14:09:42 - Returning total cocktail count 4114
+2023-09-09 14:09:51 - Returning total cocktail count 4114
+2023-09-09 14:09:58 - Returning total cocktail count 4114
+2023-09-09 14:10:09 - Returning total cocktail count 4114
+2023-09-09 14:10:40 - Returning total cocktail count 4114
+2023-09-09 14:10:51 - Returning total cocktail count 4114
+2023-09-09 14:12:02 - Returning total cocktail count 4114
+2023-09-09 14:12:50 - Returning total cocktail count 4114
+2023-09-09 14:13:17 - Returning total cocktail count 4114
+2023-09-09 14:13:29 - Returning total cocktail count 4114
+2023-09-09 14:13:41 - Returning total cocktail count 4114
+2023-09-09 14:14:40 - Returning total cocktail count 4114
+2023-09-09 14:15:03 - Returning total cocktail count 4114
+2023-09-09 14:15:38 - Returning total cocktail count 4114
+2023-09-09 14:17:37 - Returning total cocktail count 4114
+2023-09-09 14:18:22 - Returning total cocktail count 4114
+2023-09-09 14:19:14 - Returning total cocktail count 4114
+2023-09-09 14:19:26 - Returning total cocktail count 4114
+2023-09-09 14:20:30 - Returning total cocktail count 4114
+2023-09-09 14:21:10 - Returning total cocktail count 4114
+2023-09-09 14:21:33 - Returning total cocktail count 4114
+2023-09-09 14:23:41 - Returning total cocktail count 4114
+2023-09-09 14:24:17 - Returning total cocktail count 4114
+2023-09-09 14:30:37 - Returning total cocktail count 4114
+2023-09-09 14:43:53 - HikariPool-1 - Shutdown initiated...
+2023-09-09 14:43:53 - HikariPool-1 - Shutdown completed.

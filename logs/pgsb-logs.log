@@ -1,17 +1,167 @@
-2023-08-31 14:19:10 - Starting PgsbApplication using Java 19.0.1 with PID 4126 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
-2023-08-31 14:19:10 - Running with Spring Boot v3.1.2, Spring v6.0.11
-2023-08-31 14:19:10 - No active profile set, falling back to 1 default profile: "default"
-2023-08-31 14:19:10 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-08-31 14:19:10 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
-2023-08-31 14:19:11 - Tomcat initialized with port(s): 8080 (http)
-2023-08-31 14:19:11 - Initializing ProtocolHandler ["http-nio-8080"]
-2023-08-31 14:19:11 - Starting service [Tomcat]
-2023-08-31 14:19:11 - Starting Servlet engine: [Apache Tomcat/10.1.11]
-2023-08-31 14:19:11 - Initializing Spring embedded WebApplicationContext
-2023-08-31 14:19:11 - Root WebApplicationContext: initialization completed in 787 ms
-2023-08-31 14:19:11 - HikariPool-1 - Starting...
-2023-08-31 14:19:12 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@412ebe64
-2023-08-31 14:19:12 - HikariPool-1 - Start completed.
-2023-08-31 14:19:12 - Starting ProtocolHandler ["http-nio-8080"]
-2023-08-31 14:19:12 - Tomcat started on port(s): 8080 (http) with context path ''
-2023-08-31 14:19:12 - Started PgsbApplication in 1.979 seconds (process running for 2.257)
+2023-09-12 00:06:32 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m21s510ms).
+2023-09-12 01:21:21 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m48s177ms).
+2023-09-12 01:48:01 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m40s707ms).
+2023-09-12 02:03:51 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s563ms).
+2023-09-12 03:15:07 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m15s759ms).
+2023-09-12 04:43:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m3s222ms).
+2023-09-12 05:16:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m313ms).
+2023-09-12 05:42:28 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m18s300ms).
+2023-09-12 06:20:30 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m1s829ms).
+2023-09-12 06:48:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m56s740ms).
+2023-09-12 06:51:08 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s238ms).
+2023-09-12 07:24:34 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m26s145ms).
+2023-09-12 07:33:26 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m51s527ms).
+2023-09-12 07:34:40 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s730ms).
+2023-09-12 07:53:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m6s384ms).
+2023-09-12 07:56:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s996ms).
+2023-09-12 07:59:10 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m58s841ms).
+2023-09-12 08:07:19 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m8s907ms).
+2023-09-12 08:12:38 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m18s945ms).
+2023-09-12 08:14:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s658ms).
+2023-09-12 08:21:31 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s730ms).
+2023-09-12 08:29:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m14s613ms).
+2023-09-12 08:35:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s615ms).
+2023-09-12 08:44:23 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m5s72ms).
+2023-09-12 08:52:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m42s773ms).
+2023-09-12 09:16:08 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m1s586ms).
+2023-09-12 09:17:05 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s989ms).
+2023-09-12 09:18:48 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s331ms).
+2023-09-12 09:20:29 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s805ms).
+2023-09-12 09:22:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m375ms).
+2023-09-12 09:22:52 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s267ms).
+2023-09-12 09:24:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s876ms).
+2023-09-12 09:26:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s121ms).
+2023-09-12 09:30:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m59s517ms).
+2023-09-12 09:41:49 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m56s478ms).
+2023-09-12 09:50:15 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m25s918ms).
+2023-09-12 09:51:51 - HikariPool-1 - Shutdown initiated...
+2023-09-12 09:52:01 - Timed-out waiting for close connection executor to shutdown
+2023-09-12 09:52:01 - HikariPool-1 - Shutdown completed.
+2023-09-12 09:53:02 - Starting PgsbApplication using Java 19.0.1 with PID 50367 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-12 09:53:02 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-12 09:53:02 - No active profile set, falling back to 1 default profile: "default"
+2023-09-12 09:53:02 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-12 09:53:02 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-12 09:53:03 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-12 09:53:03 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-09-12 09:53:03 - Tomcat initialized with port(s): 8080 (http)
+2023-09-12 09:53:03 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:53:03 - Starting service [Tomcat]
+2023-09-12 09:53:03 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-12 09:53:03 - Initializing Spring embedded WebApplicationContext
+2023-09-12 09:53:03 - Root WebApplicationContext: initialization completed in 812 ms
+2023-09-12 09:53:03 - HikariPool-1 - Starting...
+2023-09-12 09:53:04 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42b5bfcd
+2023-09-12 09:53:04 - HikariPool-1 - Start completed.
+2023-09-12 09:53:04 - LiveReload server is running on port 35729
+2023-09-12 09:53:04 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:53:04 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-12 09:53:04 - Started PgsbApplication in 2.361 seconds (process running for 2.721)
+2023-09-12 09:55:39 - Restarting due to 9 class path changes (0 additions, 0 deletions, 9 modifications)
+2023-09-12 09:55:39 - Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:55:39 - Stopping service [Tomcat]
+2023-09-12 09:55:39 - Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:55:39 - Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:55:39 - HikariPool-1 - Shutdown initiated...
+2023-09-12 09:55:40 - HikariPool-1 - Shutdown completed.
+2023-09-12 09:55:40 - Starting PgsbApplication using Java 19.0.1 with PID 50367 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-12 09:55:40 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-12 09:55:40 - No active profile set, falling back to 1 default profile: "default"
+2023-09-12 09:55:40 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-12 09:55:40 - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-09-12 09:55:40 - Tomcat initialized with port(s): 8080 (http)
+2023-09-12 09:55:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:55:40 - Starting service [Tomcat]
+2023-09-12 09:55:40 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-12 09:55:40 - Initializing Spring embedded WebApplicationContext
+2023-09-12 09:55:40 - Root WebApplicationContext: initialization completed in 172 ms
+2023-09-12 09:55:40 - HikariPool-2 - Starting...
+2023-09-12 09:55:40 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4f693f56
+2023-09-12 09:55:40 - HikariPool-2 - Start completed.
+2023-09-12 09:55:40 - LiveReload server is running on port 35729
+2023-09-12 09:55:40 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:55:40 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-12 09:55:40 - Started PgsbApplication in 0.445 seconds (process running for 158.79)
+2023-09-12 09:55:40 - Condition evaluation unchanged
+2023-09-12 09:56:34 - HikariPool-2 - Shutdown initiated...
+2023-09-12 09:56:34 - HikariPool-2 - Shutdown completed.
+2023-09-12 09:56:37 - Starting PgsbApplication using Java 19.0.1 with PID 50415 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-12 09:56:37 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-12 09:56:37 - No active profile set, falling back to 1 default profile: "default"
+2023-09-12 09:56:37 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-12 09:56:37 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-12 09:56:37 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-12 09:56:37 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-09-12 09:56:38 - Tomcat initialized with port(s): 8080 (http)
+2023-09-12 09:56:38 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:56:38 - Starting service [Tomcat]
+2023-09-12 09:56:38 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-12 09:56:38 - Initializing Spring embedded WebApplicationContext
+2023-09-12 09:56:38 - Root WebApplicationContext: initialization completed in 805 ms
+2023-09-12 09:56:38 - HikariPool-1 - Starting...
+2023-09-12 09:56:38 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42b5bfcd
+2023-09-12 09:56:38 - HikariPool-1 - Start completed.
+2023-09-12 09:56:39 - LiveReload server is running on port 35729
+2023-09-12 09:56:39 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:56:39 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-12 09:56:39 - Started PgsbApplication in 2.131 seconds (process running for 2.514)
+2023-09-12 09:57:12 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-09-12 09:57:12 - Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:12 - Stopping service [Tomcat]
+2023-09-12 09:57:12 - Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:12 - Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:12 - HikariPool-1 - Shutdown initiated...
+2023-09-12 09:57:12 - HikariPool-1 - Shutdown completed.
+2023-09-12 09:57:13 - Starting PgsbApplication using Java 19.0.1 with PID 50415 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-12 09:57:13 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-12 09:57:13 - No active profile set, falling back to 1 default profile: "default"
+2023-09-12 09:57:13 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-12 09:57:13 - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-09-12 09:57:13 - Tomcat initialized with port(s): 8080 (http)
+2023-09-12 09:57:13 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:13 - Starting service [Tomcat]
+2023-09-12 09:57:13 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-12 09:57:13 - Initializing Spring embedded WebApplicationContext
+2023-09-12 09:57:13 - Root WebApplicationContext: initialization completed in 432 ms
+2023-09-12 09:57:13 - HikariPool-2 - Starting...
+2023-09-12 09:57:13 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@435355eb
+2023-09-12 09:57:13 - HikariPool-2 - Start completed.
+2023-09-12 09:57:13 - LiveReload server is running on port 35729
+2023-09-12 09:57:13 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:13 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-12 09:57:13 - Started PgsbApplication in 0.801 seconds (process running for 37.207)
+2023-09-12 09:57:13 - Condition evaluation unchanged
+2023-09-12 09:57:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-12 09:57:14 - Initializing Servlet 'dispatcherServlet'
+2023-09-12 09:57:14 - Completed initialization in 1 ms
+2023-09-12 09:57:14 - Returning total cocktail count 4114
+2023-09-12 09:57:14 - 100 cocktails
+2023-09-12 09:57:15 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-09-12 09:57:15 - Pausing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:15 - Stopping service [Tomcat]
+2023-09-12 09:57:15 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-09-12 09:57:15 - Stopping ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:15 - Destroying ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:15 - HikariPool-2 - Shutdown initiated...
+2023-09-12 09:57:15 - HikariPool-2 - Shutdown completed.
+2023-09-12 09:57:15 - Starting PgsbApplication using Java 19.0.1 with PID 50415 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-12 09:57:15 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-12 09:57:15 - No active profile set, falling back to 1 default profile: "default"
+2023-09-12 09:57:15 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-12 09:57:15 - Finished Spring Data repository scanning in 1 ms. Found 0 JDBC repository interfaces.
+2023-09-12 09:57:15 - Tomcat initialized with port(s): 8080 (http)
+2023-09-12 09:57:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:15 - Starting service [Tomcat]
+2023-09-12 09:57:15 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-12 09:57:15 - Initializing Spring embedded WebApplicationContext
+2023-09-12 09:57:15 - Root WebApplicationContext: initialization completed in 167 ms
+2023-09-12 09:57:15 - HikariPool-3 - Starting...
+2023-09-12 09:57:15 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@1b2dae14
+2023-09-12 09:57:15 - HikariPool-3 - Start completed.
+2023-09-12 09:57:15 - LiveReload server is running on port 35729
+2023-09-12 09:57:15 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-12 09:57:15 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-12 09:57:15 - Started PgsbApplication in 0.461 seconds (process running for 39.255)
+2023-09-12 09:57:15 - Condition evaluation unchanged
+2023-09-12 09:57:31 - HikariPool-3 - Shutdown initiated...
+2023-09-12 09:57:31 - HikariPool-3 - Shutdown completed.

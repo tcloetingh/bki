@@ -9,11 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
+
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 public class CocktailController {
     Logger logger = LoggerFactory.getLogger(CocktailController.class);
 
@@ -40,7 +39,7 @@ public class CocktailController {
    @GetMapping("/cocktails")
     public List<Cocktail> getAllCocktails(){
         List<Cocktail> cocktailList = this.cocktailService.getCocktailList();
-        System.out.println(cocktailList);
+        //System.out.println(cocktailList);
         return cocktailList;
    }
 
@@ -53,19 +52,35 @@ public class CocktailController {
 
    @PostMapping("/new-cocktail")
     public ResponseEntity<CustomHttpResponse> insertNewCocktail(@RequestParam("name") String name,
-                                                            @RequestParam("ingredients") String ingredients,
-                                                            @RequestParam("preparation") String preparation,
-                                                            @RequestParam("glassware") String glassware,
-                                                            @RequestParam("garnish") String garnish,
-                                                            @RequestParam("bartender") String bartender,
-                                                            @RequestParam("origin") String origin,
-                                                            @RequestParam("company") String company) {
+                                                                @RequestParam("ingredients") String ingredients,
+                                                                @RequestParam("recipe") String recipe,
+                                                                @RequestParam("instructions") String instructions,
+                                                                @RequestParam("glassware") String glassware,
+                                                                @RequestParam("garnish") String garnish,
+                                                                @RequestParam("about") String about,
+                                                                @RequestParam("description") String description,
+                                                                @RequestParam("description") String nutrition,
+                                                                @RequestParam("img_url") String img_url,
+                                                                @RequestParam("diffords_url") String diffords_url
+   ) {
 
-        logger.debug("new cocktail entered: \n" +  " \n name " + name + "\n ingredients " + ingredients + "\n preparation "
-                + preparation + "\n garnish " + garnish + "\n glassware " + glassware +  "\n origin "
-                + origin + "\n bartender " + bartender + "\n company " + company);
+        logger.debug("new cocktail entered: \n" +  " \n name " + name + "\n ingredients " + ingredients + "\n recipe "
+                + recipe + "\n instructions " + instructions + "\n garnish " + garnish + "\n glassware "
+                + glassware +  "\n about "  + about + "\n description " + description + "\n diffords_url " + diffords_url
+                + "\n img_url " + img_url
+        );
 
-        Cocktail cocktail = new Cocktail(name, ingredients, preparation, garnish, glassware, origin,  bartender, company);
+        Cocktail cocktail = new Cocktail(name,
+                                        ingredients,
+                                        recipe,
+                                        instructions,
+                                        description,
+                                        about,
+                                        garnish,
+                                        glassware,
+                                        nutrition,
+                                        diffords_url,
+                                        img_url);
 
         boolean success = this.cocktailService.insertNewCocktail(cocktail);
 

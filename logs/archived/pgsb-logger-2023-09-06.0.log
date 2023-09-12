@@ -1,0 +1,218 @@
+2023-09-06 20:24:05 - Starting PgsbApplication using Java 19.0.1 with PID 22757 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-06 20:24:05 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-06 20:24:05 - No active profile set, falling back to 1 default profile: "default"
+2023-09-06 20:24:06 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-06 20:24:06 - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-09-06 20:24:06 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2023-09-06 20:24:06 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-06 20:24:06 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.pgsb.PgsbApplication.main(PgsbApplication.java:19)
+Caused by: java.lang.IllegalStateException: Could not load store: Unable to create key store: Could not load store from '/etc/letsencrypt/live/api.barkeepersindex.com/keystore.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslStoreProvider(SslConnectorCustomizer.java:124)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:93)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:59)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:367)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:344)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	... 8 common frames omitted
+Caused by: java.lang.IllegalStateException: Unable to create key store: Could not load store from '/etc/letsencrypt/live/api.barkeepersindex.com/keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:89)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.getKeyStore(JksSslStoreBundle.java:58)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslStoreProvider(SslConnectorCustomizer.java:116)
+	... 15 common frames omitted
+Caused by: java.lang.IllegalStateException: Could not load store from '/etc/letsencrypt/live/api.barkeepersindex.com/keystore.p12'
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:118)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.createKeyStore(JksSslStoreBundle.java:84)
+	... 17 common frames omitted
+Caused by: java.io.FileNotFoundException: /etc/letsencrypt/live/api.barkeepersindex.com/keystore.p12 (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:189)
+	at java.base/java.net.URL.openStream(URL.java:1162)
+	at org.springframework.boot.ssl.jks.JksSslStoreBundle.loadKeyStore(JksSslStoreBundle.java:113)
+	... 18 common frames omitted
+2023-09-06 20:24:37 - Starting PgsbApplication using Java 19.0.1 with PID 22769 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-06 20:24:37 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-06 20:24:37 - No active profile set, falling back to 1 default profile: "default"
+2023-09-06 20:24:38 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-06 20:24:38 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-09-06 20:24:38 - Tomcat initialized with port(s): 8080 (http)
+2023-09-06 20:24:38 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-06 20:24:38 - Starting service [Tomcat]
+2023-09-06 20:24:38 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-06 20:24:38 - Initializing Spring embedded WebApplicationContext
+2023-09-06 20:24:38 - Root WebApplicationContext: initialization completed in 775 ms
+2023-09-06 20:24:39 - HikariPool-1 - Starting...
+2023-09-06 20:24:39 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79957f11
+2023-09-06 20:24:39 - HikariPool-1 - Start completed.
+2023-09-06 20:24:39 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-06 20:24:39 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 20:24:39 - Started PgsbApplication in 1.986 seconds (process running for 2.255)
+2023-09-06 20:24:57 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 20:24:57 - Initializing Servlet 'dispatcherServlet'
+2023-09-06 20:24:57 - Completed initialization in 2 ms
+2023-09-06 20:25:08 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT * FROM cocktail.cocktails_main ORDER BY RANDOM() LIMIT 100;]] with root cause
+org.postgresql.util.PSQLException: The column name glassware was not found in this ResultSet.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:3033)
+	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2888)
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java)
+	at com.pgsb.model.CocktailRowMapper.mapRow(CocktailRowMapper.java:18)
+	at com.pgsb.model.CocktailRowMapper.mapRow(CocktailRowMapper.java:8)
+	at org.springframework.jdbc.core.RowMapperResultSetExtractor.extractData(RowMapperResultSetExtractor.java:94)
+	at org.springframework.jdbc.core.RowMapperResultSetExtractor.extractData(RowMapperResultSetExtractor.java:61)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:458)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:383)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:470)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:480)
+	at com.pgsb.dao.CocktailDao.getAllCocktails(CocktailDao.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:756)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.pgsb.dao.CocktailDao$$SpringCGLIB$$0.getAllCocktails(<generated>)
+	at com.pgsb.service.CocktailService.getCocktailList(CocktailService.java:29)
+	at com.pgsb.controllers.CocktailController.getAllCocktails(CocktailController.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023-09-06 20:26:19 - HikariPool-1 - Shutdown initiated...
+2023-09-06 20:26:19 - HikariPool-1 - Shutdown completed.
+2023-09-06 20:26:21 - Starting PgsbApplication using Java 19.0.1 with PID 22802 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-06 20:26:21 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-06 20:26:21 - No active profile set, falling back to 1 default profile: "default"
+2023-09-06 20:26:22 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-06 20:26:22 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-09-06 20:26:22 - Tomcat initialized with port(s): 8080 (http)
+2023-09-06 20:26:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-06 20:26:22 - Starting service [Tomcat]
+2023-09-06 20:26:22 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-06 20:26:22 - Initializing Spring embedded WebApplicationContext
+2023-09-06 20:26:22 - Root WebApplicationContext: initialization completed in 745 ms
+2023-09-06 20:26:22 - HikariPool-1 - Starting...
+2023-09-06 20:26:23 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79957f11
+2023-09-06 20:26:23 - HikariPool-1 - Start completed.
+2023-09-06 20:26:23 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-06 20:26:23 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 20:26:23 - Started PgsbApplication in 2.004 seconds (process running for 2.308)
+2023-09-06 20:26:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 20:26:28 - Initializing Servlet 'dispatcherServlet'
+2023-09-06 20:26:28 - Completed initialization in 1 ms
+2023-09-06 21:41:40 - HikariPool-1 - Shutdown initiated...
+2023-09-06 21:41:40 - HikariPool-1 - Shutdown completed.
+2023-09-06 21:41:43 - Starting PgsbApplication using Java 19.0.1 with PID 23787 (/Users/tcloetingh/Desktop/barkeepersindex/pgsb/target/classes started by tcloetingh in /Users/tcloetingh/Desktop/barkeepersindex/pgsb)
+2023-09-06 21:41:43 - Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-09-06 21:41:43 - No active profile set, falling back to 1 default profile: "default"
+2023-09-06 21:41:44 - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-09-06 21:41:44 - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-09-06 21:41:44 - Tomcat initialized with port(s): 8080 (http)
+2023-09-06 21:41:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-06 21:41:44 - Starting service [Tomcat]
+2023-09-06 21:41:44 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-06 21:41:44 - Initializing Spring embedded WebApplicationContext
+2023-09-06 21:41:44 - Root WebApplicationContext: initialization completed in 917 ms
+2023-09-06 21:41:44 - HikariPool-1 - Starting...
+2023-09-06 21:41:45 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79957f11
+2023-09-06 21:41:45 - HikariPool-1 - Start completed.
+2023-09-06 21:41:45 - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-06 21:41:45 - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-06 21:41:45 - Started PgsbApplication in 2.449 seconds (process running for 2.799)
+2023-09-06 21:42:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-06 21:42:50 - Initializing Servlet 'dispatcherServlet'
+2023-09-06 21:42:50 - Completed initialization in 7 ms
+2023-09-06 21:42:50 - Returning total cocktail count 4114
+2023-09-06 21:43:20 - Returning total cocktail count 4114
+2023-09-06 21:43:45 - searchTerm: mezcal
+2023-09-06 21:47:19 - searchTerm: Old fashioned
+2023-09-06 21:52:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s50ms).
+2023-09-06 21:55:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s761ms).
+2023-09-06 21:56:25 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s108ms).
+2023-09-06 21:57:44 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s289ms).
+2023-09-06 22:08:02 - Returning total cocktail count 4114
+2023-09-06 22:08:12 - Returning total cocktail count 4114
+2023-09-06 22:08:59 - Returning total cocktail count 4114
+2023-09-06 22:09:03 - Returning total cocktail count 4114
+2023-09-06 22:09:17 - Returning total cocktail count 4114
+2023-09-06 22:09:29 - Returning total cocktail count 4114
+2023-09-06 22:09:49 - Returning total cocktail count 4114
+2023-09-06 22:14:40 - Returning total cocktail count 4114
+2023-09-06 22:15:25 - Returning total cocktail count 4114
+2023-09-06 22:18:15 - Returning total cocktail count 4114
+2023-09-06 22:18:29 - Returning total cocktail count 4114
+2023-09-06 22:19:36 - Returning total cocktail count 4114
+2023-09-06 22:21:04 - Returning total cocktail count 4114
+2023-09-06 22:21:49 - Returning total cocktail count 4114
+2023-09-06 22:30:18 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s368ms).
+2023-09-06 23:07:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m34s792ms).
+2023-09-06 23:26:57 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m4s301ms).
+2023-09-06 23:48:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m6s406ms).

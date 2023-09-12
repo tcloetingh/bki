@@ -30,15 +30,18 @@ public class CocktailDao {
     }
 
     public List<Cocktail> getAllCocktails() {
-        String sql = "SELECT * FROM cocktail.cocktails_main;";
+        String sql = "SELECT * " +
+                     "FROM cocktail.cocktails_main " +
+                     "ORDER BY RANDOM() " +
+                     "LIMIT 100;";
         CocktailRowMapper cocktailsMapped = new CocktailRowMapper();
         List<Cocktail> cocktails = jdbc.query(sql, cocktailsMapped);
-
+        logger.debug("100 cocktails");
         return cocktails;
     }
 
     public List<Cocktail> searchCocktail(String searchTerm) {
-        String sql = "SELECT * FROM cocktail.cocktails_main WHERE fts_combined @@ phraseto_tsquery('english', ?);";
+        String sql = "SELECT * FROM cocktail.cocktails_main WHERE fts_combined @@ phraseto_tsquery('english', lower(?));";
         logger.debug("searchTerm: " + searchTerm);
         CocktailRowMapper cocktailsMapped = new CocktailRowMapper();
         List<Cocktail> cocktails = jdbc.query(sql, new Object[] {searchTerm}, cocktailsMapped);
@@ -48,10 +51,14 @@ public class CocktailDao {
 
     public void insertNewCocktail(Cocktail cocktail) throws SQLException {
         String sql = "INSERT INTO cocktail.cocktails_main " +
-                     "(name, ingredients, preparation, garnish, glassware, origin, bartender, company)" +
-                     " VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
-        jdbc.update(sql, cocktail.getName(), cocktail.getIngredients(), cocktail.getPreparation(), cocktail.getGarnish(),
-                cocktail.getGlassware(), cocktail.getOrigin(), cocktail.getBartender(), cocktail.getCompany());
+                     "(name, ingredients, instructions, recipe, garnish, glassware, description, about, url, img)" +
+                     " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);";
+        jdbc.update(sql, cocktail.getName(), cocktail.getIngredients(), cocktail.getRecipe(),
+                         cocktail.getInstructions(), cocktail.getGarnish(),
+                         cocktail.getGlassware(), cocktail.getDescription(),
+                         cocktail.getDiffords_url(), cocktail.getImg_url()
+        );
+        logger.debug("inserted new");
 
     }
 }
